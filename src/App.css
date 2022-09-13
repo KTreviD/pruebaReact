@@ -1,0 +1,82 @@
+.ContenedorPadre {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	background: #FCF6F5;
+}
+.ContenedorForm {
+	margin: auto;
+	width: 50vw;
+	height: 420px;
+	background: #FCF6F5;
+	border-right: 2px solid #990011;
+	border-bottom: 2px solid#990011;
+	overflow-y: auto;
+}
+.Submit {
+	position: relative;
+	left: 50%;
+	margin-top: 30px;
+	transform: translateX(-50%);
+	color: #FCF6F5;
+	background: #990011;
+	width: 100px;
+	height: 30px;
+	font-size: 18px;
+}
+.ContenedorAgregar {
+	margin: auto;
+	width: 50vw;
+	border-left: 2px solid #990011;
+	height: 420px;
+	background: #FCF6F5;
+	overflow-y: auto;
+	border-bottom: 2px solid#990011;
+}
+.Titulo {
+	text-align: center;
+	font-size: 34px;
+	margin: auto;
+}
+.InputForm {
+	position: relative;
+	width: 90%;
+	top: 8px;
+	margin: auto;
+}
+.LabelForm {
+	display: block;
+	font-size: 22px;
+	font-weight: 600;
+}
+.AgregarText {
+	position: relative;
+	text-align: center;
+	width: 90%;
+	top: 8px;
+	margin: auto;
+	border: 2px solid #990011;
+	margin-bottom: 20px;
+}
+.TituloText {
+	margin: 0;
+	border-bottom: 2px solid #990011;
+	padding-bottom: 2px;
+}
+.InputText {
+	margin: auto;
+	display: block;
+	margin-top: 8px;
+	margin-bottom: 10px;
+}
+.AgregarBotonText {
+	display: block;
+	width: 100%;
+	padding-top: 4px;
+	font-size: 18px;
+	padding-bottom: 4px;
+	color: #fff;
+	background: #990011;
+	border: none;
+	cursor: pointer;
+}
